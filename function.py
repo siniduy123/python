@@ -1,16 +1,9 @@
-a = 10
-b = 30
-def sub_num(a, b):
-      result = a-b
-    
-addition = true
-substraction = True
-a = 10
-b = 20
-if addition:
-add_num(a,b)
+rows = int(input("how many rows?: "))
+columns = int(input("how many columns?: "))
+symbol = input("enter a symbol to use: ")
 
-else
-sub_num(a,b)
-
+for x in range(rows):
+    for y in range(columns):
+        print(symbol, end=" ")
+        print()
       
